@@ -5,12 +5,14 @@ import Home from "./Home";
 import Blog from "./Blog";
 import Plan from "./Plan";
 import Recipe from "./Recipe";
+import Login from "./Login";
 
 
 function App() {
   return (
     <div>
       <NavBar />
+      <Login/>
       <Switch>
         <Route path="/recipe">
           <Recipe />
